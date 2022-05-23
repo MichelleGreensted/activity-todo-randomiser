@@ -1,4 +1,30 @@
 .container {
     display: flex;
     align-items: center;
+    background-color: #bcedad;
 }
+
+.checkbox {
+    transform: scale(2.5);
+    margin: 20px;
+}
+
+.holders {
+    padding: 15px;
+}
+
+.holder1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.weather-and-delete {
+    display: flex;
+    align-items: center;
+    /* margin-left: auto; */
+}
+
+/* .name-and-location {
+    flex: 1;
+} */
