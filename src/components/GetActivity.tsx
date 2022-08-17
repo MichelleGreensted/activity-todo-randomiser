@@ -1,5 +1,7 @@
 export function GetActivity() {
-    return <>
-        <button>GetActivity</button>
+  return (
+    <>
+      <button>Get Me a Random Activity</button>
     </>
+  );
 }

@@ -1,10 +1,12 @@
-import { ActivityCard } from "./ActivityCard"
-import { AddNewActivity } from "./AddNewActivity"
+import { ActivityCard } from "./ActivityCard";
+import { AddNewActivityModal } from "./AddNewActivityModal";
 
 export function ActivitiesList() {
-    return <>
-        <AddNewActivity/>
-        <ul>Activities List</ul>
-        <ActivityCard/>
-    </>
+  return (
+    <div>
+      <AddNewActivityModal />
+      <ul>Activities List</ul>
+      <ActivityCard />
+    </div>
+  );
 }
